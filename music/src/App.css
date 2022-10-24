@@ -1,0 +1,66 @@
+body {
+    background-color: #191414;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+}
+.display-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.songs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.artists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.entry {
+    display: flex;
+    flex-direction: column;
+}
+.entry, button:hover {
+    background-position: bottom left;
+    color: white;
+}
+.entry, button {
+    color: black;
+    padding:4px;
+    margin: 5px;
+    background: linear-gradient(to right, #b91d82 50%, #1DB954 50%);
+    background-size:200% 100%;
+    background-position:bottom right;
+    transition: all .7s ease-out;
+    border-radius: 20px;
+}
+span {
+    padding-top: 5px;
+    font-size:larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.newItem {
+    color: white;
+    background: linear-gradient(to right, #b9a21d 50%, #541DB9 50%);
+    background-size:200% 100%;
+    background-position:bottom right;
+    transition: all .7s ease-out;
+}
+.newItem:hover {
+    background-position: bottom left;
+    color: black;
+}
